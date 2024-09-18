@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEDEB;
+}
+
+/* Navbar Style Start */
+.navbar {
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.navbar-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-li {
+    margin: 0 10px;
+}
+
+.navbar-li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+.navbar-li a:hover {
+    color: green;
+}
+/* Navbar Style End */
+
+/* Main Section Style Start */
+
+/* Top Section Style */
+.main-section {
+    height: auto;
+    padding: 0px 10rem;
+}
+
+.top-section {
+    display: flex;
+    padding: 20px 0;
+    height: 30vh;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-content {
+    width: 40%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.left-content img {
+    height: 170px;
+    border-radius: 50%;
+}
+
+.left-content-article {
+    padding: 20px 0;
+    flex: 2;
+}
+
+.left-content-article h2 {
+    margin-bottom: 10px;
+}
+
+.left-content-article p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.left-content-article .button-kontak {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-content-article .button-kontak:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.left-content-article .button-resume {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-content-article .button-resume:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    transition: 0.5s;
+}
+
+.right-content {
+    margin-left: 50px;
+    border-left: 1px solid #eaeaea;
+    display: flex;
+}
+
+.right-content-article {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.right-content-article p {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.right-content-article-2 {
+    margin-top: 10px;
+}
+
+.right-content-article-2 p {
+    margin-bottom: 15px;
+}
+
+/* Top Section Style */
+
+
+/* Bot Section Style */
+.bot-section {
+    padding: 20px 0;
+    height: 95vh;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    padding: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: 600;
+}
+
+.form-group input {
+    width:100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+
+.button-submit {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-submit:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    transition: 0.5s;
+}
+/* Bot Section Style */
+/* Main Section Style End */
